@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 243, 243);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  background-color: rgb(191, 214, 214);
+  width: 30vw;
+  height: 6vh;
+  color: red;
+  font-weight: bold;
+  border-radius: 10px;
+}
+h3 {
+  margin: 10px;
+}
